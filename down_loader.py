@@ -9,7 +9,7 @@ url="https://www.youtube.com/results?search_query="
 
 no_of_args = len(sys.argv)
 arguments = str(sys.argv)
-  
+
 if arguments[1] == '-v' or arguments[-1] == '-m':
 	query = '+'.join(arguments[2:])
 else:
@@ -29,4 +29,4 @@ download_url = base_url+video_links[0]
 if arguments[1] == '-m':
 	os.system('youtube-dl --extract-audio --audio-format mp3 '+ download_url)
 else:
-	os.system('youtube-dl '+download_url) 	
+	os.system('youtube-dl '+download_url)
