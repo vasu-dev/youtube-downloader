@@ -21,3 +21,5 @@ A simple python program to download songs from youtube both as audio and video.
           the name of the song to be downloaded as argument after it.
           
           ![alt text]
+
+PS : Will add the screenshots soon.
