@@ -20,7 +20,7 @@ youtube_r = requests.get(url+query)
 youtube_soup = BeautifulSoup(youtube_r.text,'html.parser')
 
 video_links = []
-print arguments[0]
+print (arguments[0])
 
 for link in youtube_soup.findAll('a'):
 	if re.findall('^/watch?.+', link.get('href')):
@@ -30,6 +30,6 @@ download_url = base_url+video_links[0]
 print download_url
 
 if arguments[1] == '-m':
-	os.system('youtube-dl -x --audio-format mp3 --audio-quality 0 '+ download_url)
+	os.system('youtube-dl --verbose -x --audio-format mp3 --audio-quality 0 '+ download_url)
 else:
 	os.system('youtube-dl '+download_url)
