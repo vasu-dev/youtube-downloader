@@ -7,7 +7,7 @@ A simple python program to download songs from youtube both as audio and video.
             installing youtube-dl :
                     1) deb-based : sudo apt-get install youtube-dl
                     2) redhat based : yum install youtube-dl
-                    3) pip install :  --upgrade youtube-dl
+                    3) pip install -U youtube-dl
 
 ###Using the Script
 
