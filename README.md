@@ -1,6 +1,6 @@
 # youtube-downloader
 
-A simple python program to download songs from youtube both as audio and video.
+A simple python program that allows you to download songs from youtube both as audio and video.
 
 ### Package Dependencies : 
 #### youtube-dl
